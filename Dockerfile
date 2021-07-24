@@ -1,5 +1,6 @@
 FROM tomcat
 MAINTAINER gabyhitty@gmail.com
+USER root
 RUN set -x \
         \  
       && wget -P /usr/local/tomcat/webapps  "https://tomcat.apache.org/tomcat-8.0-doc/appdev/sample/sample.war"
