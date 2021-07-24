@@ -1,4 +1,4 @@
-FROM tomcat
+FROM tomcat:8.0-alpine
 MAINTAINER gabyhitty@gmail.com
 RUN set -x \
         \
